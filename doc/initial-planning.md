@@ -1,6 +1,6 @@
 Kyle and Sally are starting a skincare spa, they want a simple static site that includes a booking feature
 
-Site they want to model: [Comfort Day Spa Brea](https://www.comfortdayspabrea.com/)
+Site they want to model: [Comfort Day Spa Brea](https://www.comfortdayspabrea.com/) and [hannok beauty](https://HANOKKBEAUTY.COM)
 
 I think we could improve on the design of this. Here are some other site examples:
 - https://hughspa.com/
