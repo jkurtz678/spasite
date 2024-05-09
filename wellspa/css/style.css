@@ -1712,3 +1712,30 @@ h1, h2, h3, h4, h5,
       line-height: 1.5;
       font-size: 15px;
       color: #999; }
+
+
+.header-title-shadow {
+  text-shadow: rgba(38, 24, 19, 0.6) 1px 5px 14px;
+}
+.header-text-shadow {
+  text-shadow: rgba(38, 24, 19, 0.6) 1px 3px 7px;
+}
+.header-button-shadow {
+  box-shadow: rgba(38, 24, 19, 0.6) 1px 5px 14px;
+}
+
+.lead {
+  font-weight: bold;
+  color: #CA8300
+}
+
+b {
+  font-weight: bold;
+}
+
+.expand-btn {
+  padding: 10px 15px;
+  background-color: #fdf3e9 !important;
+  border-color: #fdf3e9 !important; 
+  color: #CA8300 !important;
+}
