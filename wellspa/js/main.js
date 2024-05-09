@@ -288,13 +288,14 @@ jQuery(document).ready(function($) {
   	}) 
 
   };
-  siteScroll();
 
   // Stellar
   $(window).stellar({
   	horizontalScrolling: false,
     responsive: true,
   });
+
+  siteScroll();
 
 
   var counter = function() {
