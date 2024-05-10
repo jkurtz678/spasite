@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "stock-photos.md",
+                "file": "initial-planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bc0f6f5244eef42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "contact us page.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "stock-photos.md",
+                "file": "contact us page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "stock-photos.md",
+                "file": "contact us page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "stock-photos.md"
+                "file": "contact us page.md"
               }
             }
           }
@@ -159,12 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "247362034fafcf35",
+  "active": "3bc0f6f5244eef42",
   "lastOpenFiles": [
-    "template-ideas.md",
+    "initial-planning.md",
+    "contact us page.md",
     "site-outline.md",
     "stock-photos.md",
-    "initial-planning.md",
+    "template-ideas.md",
     "may-6-meeting-notes.md",
     "HANOKKBEAUTY.COM.md"
   ]
