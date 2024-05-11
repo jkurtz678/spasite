@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "clientdocs/may-10-meeting-notes.md",
+                "file": "initial-planning.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "clientdocs/may-10-meeting-notes.md",
+                "file": "initial-planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "clientdocs/may-10-meeting-notes.md",
+                "file": "initial-planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "clientdocs/may-10-meeting-notes.md"
+                "file": "initial-planning.md"
               }
             }
           }
@@ -197,14 +197,15 @@
   },
   "active": "a120860667334d29",
   "lastOpenFiles": [
-    "clientdocs/may-6-meeting-notes.md",
-    "clientdocs/20240510-additional-copy.md",
     "clientdocs/may-10-meeting-notes.md",
+    "clientdocs/20240510-copy-for-membership-page.md",
+    "contact us page.md",
+    "clientdocs/Untitled.md",
+    "clientdocs/may-6-meeting-notes.md",
     "clientdocs/20240509-homepage-copy.docx",
     "clientdocs/SALLY’S BUS WEBSITE COPY TO JAX 5-8-24.docx",
     "clientdocs/20240505-site-product-offerings.docx",
     "seo-guidelines.md",
-    "contact us page.md",
     "clientdocs",
     "initial-planning.md",
     "template-ideas.md",

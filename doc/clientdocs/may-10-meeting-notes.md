@@ -2,6 +2,10 @@ Do you have any feedback about the site?
 - we want the homepage to be more like this site https://essenceofglowspa.com/, this kindof layout, these tabs: Home Skincare Massage Membership Special Offers
 - You can use the stock photo but it should be smaller, where the logo is on the essence of glow spa page
 
+Do you have contact info for the business yet?
+- phone number: 424-394-9531
+- Address: 24333 Crenshaw Blvd. Torrance ca 90505 Suite 134
+
 Do you have any feedback about the skincare page
 - We like the layout, but will send you more updated text
 
