@@ -54,7 +54,7 @@ jQuery(document).ready(function($) {
 		  }
 		});
 	}
-	setImagesToWebp();
+	//setImagesToWebp();
 
 	var siteMenuClone = function() {
 
