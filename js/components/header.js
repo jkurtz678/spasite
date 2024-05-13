@@ -25,7 +25,7 @@ headerTemplate.innerHTML = `
       </div>
       <div class="col-md-6 d-flex justify-content-center">
         <div class="site-logo serif text-center pt-4 pb-3">
-          <img src="images/eoh-title.png" alt="essence of healing" style="max-width: 440px;">
+          <a href="index.html"><img src="images/eoh-title.png" alt="essence of healing" style="max-width: 440px;"></a>
           <h3 class="serif" style="font-size: 0.8em">Face And Bodycare</h3>
         </div>
       </div>

@@ -5,7 +5,7 @@ footerTemplate.innerHTML = `
    <div class="container">
       <div class="row">
          <div class="col-12 text-center mb-5">
-            <h3 class="font-weight-bold serif text-white">Essence Of Healing Spa</h3>
+            <a href="index.html"><img src="images/EssenceOfHealingLogoWT.png" style="max-width: 350px;" ></a>
          </div>
          <div class="col-12 text-center mb-5">
             <a href="index.html" class="">Home</a>
