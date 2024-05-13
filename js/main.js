@@ -9,6 +9,53 @@ jQuery(document).ready(function($) {
 	"use strict";
 
 	
+// Checks if the browser supports WebP format
+	function supportsWebP() {
+		// Create an element to test for WebP support
+		var elem = document.createElement('canvas');
+		if (!!(elem.getContext && elem.getContext('2d'))) {
+			// Was able to successfully create a canvas element and getContext is working
+			return elem.toDataURL('image/webp').indexOf('data:image/webp') === 0;
+		}
+		// getContext is null or undefined
+		return false;
+	}
+
+	// Function to replace image sources with WebP format
+	function setImagesToWebp() {
+		// Check if WebP is supported
+		if (!supportsWebP()) {
+			return; // WebP is not supported, so exit the function
+		}
+
+		// Get all image elements on the page
+		var images = document.getElementsByTagName('img');
+
+		// Loop through each image and replace src with WebP if available
+		for (var i = 0; i < images.length; i++) {
+			var img = images[i];
+			var src = img.getAttribute('src');
+			if (src && src.toLowerCase().endsWith('.png') || src.toLowerCase().endsWith('.jpg') || src.toLowerCase().endsWith('.jpeg')) {
+			// Replace the image source with WebP format
+			img.setAttribute('src', src.replace(/\.(png|jpg|jpeg)$/, '.webp'));
+			}
+		}
+
+		  // Get all elements with background images
+		var elementsWithBg = document.querySelectorAll('[style*="background-image"]');
+		elementsWithBg.forEach(function(element) {
+			var style = element.style.backgroundImage;
+			var imageUrl = style.replace(/^url\(['"]?(.*?)['"]?\)$/, '$1');
+			// Check if the image URL ends with .jpg or .png
+			if (imageUrl.toLowerCase().endsWith('.jpg') || imageUrl.toLowerCase().endsWith('.png' || imageUrl.toLowerCase().endsWith('.jpeg'))) {
+				// Replace the background image URL with WebP format
+				console.log(style.replace(/\.(png|jpg|jpeg)$/, '.webp'));
+				element.style.backgroundImage = style.replace(/\.(png|jpg|jpeg)$/, '.webp');
+			}
+		});
+	}
+	setImagesToWebp();
+
 	var siteMenuClone = function() {
 
 		$('.js-clone-nav').each(function() {
@@ -323,6 +370,5 @@ jQuery(document).ready(function($) {
 	}
 	counter();
 
-
-
+	
 });
