@@ -24,7 +24,7 @@ headerTemplate.innerHTML = `
               class="icon-menu h3 text-white"></span></a></span>
       </div>
       <div class="col-md-6 d-flex justify-content-center">
-        <div class="site-logo serif text-center py-4">
+        <div class="site-logo serif text-center pt-4 pb-3">
           <img src="images/eoh-title.png" alt="essence of healing" style="max-width: 440px;">
           <h3 class="serif" style="font-size: 0.8em">Face And Bodycare</h3>
         </div>
@@ -35,6 +35,9 @@ headerTemplate.innerHTML = `
           (424) 394 9531
         </h4>
       </div>
+    </div>
+    <div class="d-flex justify-content-center" style="width: 100%">
+      <img src="images/OrnamentLineLonger2.png" style="max-width: 100%">
     </div>
     <div class="row align-items-center">
       <nav class="site-navigation text-center mx-auto d-none d-lg-block" role="navigation">
