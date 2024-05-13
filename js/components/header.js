@@ -39,11 +39,11 @@ headerTemplate.innerHTML = `
     <div class="row align-items-center">
       <nav class="site-navigation text-center mx-auto d-none d-lg-block" role="navigation">
         <ul class="site-menu main-menu js-clone-nav mx-auto ">
-          <li class="active"><a href="index.html" class="nav-link">HOME</a></li>
-          <li><a href="skincare.html" class="nav-link">SKINCARE</a></li>
-          <li><a href="massage.html" class="nav-link">MASSAGE</a></li>
-          <li><a href="membership.html" class="nav-link">MEMBERSHIP</a></li>
-          <li><a href="special-offers.html" class="nav-link">SPECIAL OFFERS</a></li>
+          <li id="home-nav" ><a href="index.html" class="nav-link">HOME</a></li>
+          <li id="skincare-nav"><a href="skincare.html" class="nav-link">SKINCARE</a></li>
+          <li id="massage-nav"><a href="massage.html" class="nav-link">MASSAGE</a></li>
+          <li id="membership-nav"><a href="membership.html" class="nav-link">MEMBERSHIP</a></li>
+          <li id="special-offers-nav"><a href="special-offers.html" class="nav-link">SPECIAL OFFERS</a></li>
         </ul>
       </nav>
     </div>
@@ -65,6 +65,17 @@ class Header extends HTMLElement {
       cssLink.setAttribute("rel", "stylesheet");
       cssLink.setAttribute("href", href);
       shadowRoot.appendChild(cssLink);
+    });
+
+    // Wait for the shadow DOM to be fully populated
+    setTimeout(() => {
+      const activePage = this.getAttribute('active-page');
+      if (activePage) {
+        const activeItem = shadowRoot.getElementById(`${activePage}-nav`);
+        if (activeItem) {
+          activeItem.classList.add('active');
+        }
+      }
     });
 
     shadowRoot.appendChild(headerTemplate.content);
