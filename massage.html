@@ -27,7 +27,7 @@
   <script defer src="https://www.googletagmanager.com/gtag/js?id=G-C36HVXWMSM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-C36HVXWMSM');
@@ -42,41 +42,40 @@
   <div class="site-wrap" id="home-section">
 
     <!-- all this belongs in the header component but it doesnt work with the main.js mobile nav scripts for some reason (probably shadow dom), this is a hack for now-->
-  <div class="site-wrap" id="home-section">
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
+    <div class="site-wrap" id="home-section">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
         </div>
+        <div class="site-mobile-menu-body"></div>
       </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-    <div class="d-flex d-lg-none justify-content-end pt-4 pr-4">
-      <span class="d-inline-block d-lg-none"><a href="#" class="site-menu-toggle js-menu-toggle py-5"><span
-            class="icon-menu h3 accent-color"></span></a></span>
-    </div>
-    <nav class="d-none site-navigation text-center mx-auto" role="navigation">
-      <ul class="site-menu main-menu js-clone-nav mx-auto ">
-        <li id="home-nav" ><a href="index.html" class="nav-link">HOME</a></li>
-        <li id="skincare-nav"><a href="skincare.html" class="nav-link">SKINCARE</a></li>
-        <li id="massage-nav"><a href="massage.html" class="nav-link">MASSAGE</a></li>
-        <li id="membership-nav"><a href="membership.html" class="nav-link">MEMBERSHIP</a></li>
-        <li id="special-offers-nav"><a href="special-offers.html" class="nav-link">SPECIAL OFFERS</a></li>
-      </ul>
-    </nav>
-    <!-- end nav hack -->
+      <div class="d-flex d-lg-none justify-content-end pt-4 pr-4">
+        <span class="d-inline-block d-lg-none"><a href="#" class="site-menu-toggle js-menu-toggle py-5"><span
+              class="icon-menu h3 accent-color"></span></a></span>
+      </div>
+      <nav class="d-none site-navigation text-center mx-auto" role="navigation">
+        <ul class="site-menu main-menu js-clone-nav mx-auto ">
+          <li id="home-nav"><a href="index.html" class="nav-link">HOME</a></li>
+          <li id="skincare-nav"><a href="skincare.html" class="nav-link">SKINCARE</a></li>
+          <li id="massage-nav"><a href="massage.html" class="nav-link">MASSAGE</a></li>
+          <li id="membership-nav"><a href="membership.html" class="nav-link">MEMBERSHIP</a></li>
+          <li id="special-offers-nav"><a href="special-offers.html" class="nav-link">SPECIAL OFFERS</a></li>
+        </ul>
+      </nav>
+      <!-- end nav hack -->
 
-    <header-component active-page="massage"></header-component>
+      <header-component active-page="massage"></header-component>
 
-    <div class="homepage-section pt-1" data-aos="fade-up" data-aos-delay="100">
-      <div class="container">
-        <div class="row justify-content-center">
-          <h2 class="heading-border-bottom font-weight-bold serif text-black mb-5 text-center">Our Massage Treatments
-          </h2>
-        </div>
-        <div class="row">
-          <div class="col-md-8 blog-content">
-            <div class="pb-4">
+      <div class="homepage-section pt-1" data-aos="fade-up" data-aos-delay="100">
+        <div class="container">
+          <div class="row justify-content-center">
+            <h2 class="heading-border-bottom font-weight-bold serif text-black mb-5 text-center">Our Massage Treatments
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-md-7 blog-content pb-4">
               <p class="lead">STRESS RELIEF BACK MASSAGE</p>
               <p>For back, neck, shoulders and arms</p>
               <p>Treament options:</p>
@@ -98,7 +97,13 @@
               </ul>
 
             </div>
-            <div class="pb-4">
+            <div class="col-md-5 d-flex align-items-center">
+              <div class="sidebar-box" style="text-align: center">
+                <img src="images/back_massage.jpg" alt="Image" class="img-fluid" style="max-height: 580px">
+              </div>
+            </div>
+
+            <div class="col-md-7 blog-content pb-4">
               <p class="lead">DÉCOLLETÉ MASSAGE </p>
               <p>Treament options:</p>
               <ul>
@@ -112,7 +117,12 @@
                 </p>
               </ul>
             </div>
-            <div class="pb-4">
+            <div class="col-md-5">
+              <div class="sidebar-box" style="text-align: center">
+                <img src="images/back_massage_2.jpg" alt="Image" class="img-fluid" style="max-height: 220px">
+              </div>
+            </div>
+            <div class="col-md-7 blog-content pb-4">
               <p class="lead">
                 MERIDIAN LIFTING FACIAL MASSAGE</p>
               <p>
@@ -128,52 +138,38 @@
               <p>60 minutes - $100</p>
               </p>
             </div>
-            <div>
-              <p><b>*All massage treatments can be combined for a longer, customized session. Add the times and costs of your
+            <div class="col-md-5">
+              <div class="sidebar-box" style="text-align: center">
+                <img src="images/face_massage.jpg" alt="Image" class="img-fluid" style="max-height: 380px">
+              </div>
+            </div>
+            <div class="col-12">
+              <p><b>*All massage treatments can be combined for a longer, customized session. Add the times and costs of
+                  your
                   desired treatments together to create your ideal service.</b></p>
             </div>
           </div>
-          <div class="col-md-4 sidebar">
-            <div class="sidebar-box" style="text-align: center">
-              <img src="images/back_massage.jpg" alt="Image" class="img-fluid" style="max-height: 380px">
-            </div>
-            <div class="sidebar-box" style="text-align: center">
-              <img src="images/back_massage_2.jpg" alt="Image" class="img-fluid" style="max-height: 380px">
-            </div>
-
-            <div class="sidebar-box" style="text-align: center">
-              <img src="images/face_massage.jpg" alt="Image" class="img-fluid" style="max-height: 380px">
-            </div>
-
-            <!-- <div class="sidebar-box">
-              <h3 class="text-black">Paragraph</h3>
-              <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of
-                her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line
-                Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-            </div> -->
-          </div>
         </div>
       </div>
+
+      <footer-component></footer-component>
     </div>
 
-    <footer-component></footer-component>
-  </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.0.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
-
-  <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
