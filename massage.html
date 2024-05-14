@@ -40,6 +40,32 @@
 
 
   <div class="site-wrap" id="home-section">
+
+    <!-- all this belongs in the header component but it doesnt work with the main.js mobile nav scripts for some reason (probably shadow dom), this is a hack for now-->
+  <div class="site-wrap" id="home-section">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    <div class="d-flex d-lg-none justify-content-end pt-4 pr-4">
+      <span class="d-inline-block d-lg-none"><a href="#" class="site-menu-toggle js-menu-toggle py-5"><span
+            class="icon-menu h3 accent-color"></span></a></span>
+    </div>
+    <nav class="d-none site-navigation text-center mx-auto" role="navigation">
+      <ul class="site-menu main-menu js-clone-nav mx-auto ">
+        <li id="home-nav" ><a href="index.html" class="nav-link">HOME</a></li>
+        <li id="skincare-nav"><a href="skincare.html" class="nav-link">SKINCARE</a></li>
+        <li id="massage-nav"><a href="massage.html" class="nav-link">MASSAGE</a></li>
+        <li id="membership-nav"><a href="membership.html" class="nav-link">MEMBERSHIP</a></li>
+        <li id="special-offers-nav"><a href="special-offers.html" class="nav-link">SPECIAL OFFERS</a></li>
+      </ul>
+    </nav>
+    <!-- end nav hack -->
+
     <header-component active-page="massage"></header-component>
 
     <div class="homepage-section pt-1" data-aos="fade-up" data-aos-delay="100">

@@ -310,7 +310,7 @@ jQuery(document).ready(function($) {
       $('html, body').animate({
         'scrollTop': $(hash).offset().top - 50
       }, 600, 'easeInOutExpo', function() {
-        // window.location.hash = hash;
+        // wiindow.location.hash = hash;
 
       });
 
