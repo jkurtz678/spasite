@@ -1759,6 +1759,11 @@ b {
 .welcome-card{
   background-color: #fdf3e9 !important;
   padding: 2em 2.5em;
-  height: 400px;
+  max-height: 500px;
 }
 
+@media (min-width: 1200px) { /* xl breakpoint */
+  .welcome-card {
+       max-height: 400;
+   }
+}
