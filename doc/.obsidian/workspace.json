@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "41e5df51aabd10f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEO optimizing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "initial-planning.md",
+                "file": "SEO optimizing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "initial-planning.md",
+                "file": "SEO optimizing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "initial-planning.md"
+                "file": "SEO optimizing.md"
               }
             }
           }
@@ -207,10 +219,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2cfc3f86f2d8da0",
+  "active": "41e5df51aabd10f5",
   "lastOpenFiles": [
-    "may-10-meeting.md",
     "initial-planning.md",
+    "SEO optimizing.md",
+    "may-10-meeting.md",
     "clientdocs/may-10-meeting-notes.md",
     "clientdocs/20240510-copy-for-membership-page.md",
     "contact us page.md",
