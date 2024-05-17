@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEO optimizing.md",
+                "file": "seo-guidelines.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e0b6c55f68f3e0cd",
@@ -158,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEO optimizing.md",
+                "file": "seo-guidelines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEO optimizing.md",
+                "file": "seo-guidelines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEO optimizing.md"
+                "file": "seo-guidelines.md"
               }
             }
           }
@@ -221,8 +222,9 @@
   },
   "active": "41e5df51aabd10f5",
   "lastOpenFiles": [
-    "initial-planning.md",
+    "site-outline.md",
     "SEO optimizing.md",
+    "initial-planning.md",
     "may-10-meeting.md",
     "clientdocs/may-10-meeting-notes.md",
     "clientdocs/20240510-copy-for-membership-page.md",
@@ -236,7 +238,6 @@
     "clientdocs",
     "template-ideas.md",
     "stock-photos.md",
-    "site-outline.md",
     "HANOKKBEAUTY.COM.md"
   ]
 }
