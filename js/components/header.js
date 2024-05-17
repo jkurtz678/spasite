@@ -15,8 +15,8 @@ headerTemplate.innerHTML = `
         </a>
       </div>
       <div class="col-12 col-lg-6 d-flex justify-content-center order-1 order-lg-2 align-items-center" >
-        <div class="site-logo serif text-center pt-1 pt-lg-4 pb-3" style="max-width: 440px;">
-          <a href="index.html"><img src="images/eoh-title.webp" alt="essence of healing golden title" style="width: 100%"></a>
+        <div class="site-logo serif text-center pt-1 pt-lg-4 pb-mb-3" style="max-width: 440px;">
+          <a href="index.html"><img src="images/eoh-title.webp" alt="essence of healing golden title" style="width: 100%; min-height: 49px;"></a>
           <h3 class="serif" style="font-size: 0.8em">Face And Bodycare</h3>
         </div>
       </div>
@@ -27,8 +27,10 @@ headerTemplate.innerHTML = `
         </h4>
       </div>
     </div>
-    <div class="d-flex justify-content-center mb-4 mb-lg-0" style="width: 100%">
-      <img src="images/OrnamentLineLonger2.webp" style="max-width: 100%" alt="golden divider line with ornament">
+    <div class="d-block" style="min-height: 44px;>
+      <div class="d-flex justify-content-center mb-4 mb-lg-0" style="width: 100%;">
+        <img src="images/OrnamentLineLonger2.webp" style="max-width: 100%" alt="golden divider line with ornament">
+      </div>
     </div>
     <div class="row align-items-center">
       <!--<span class="d-block d-md-none" style="position: fixed; top: 38px; right: 25px;"><a href="#" class="site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 accent-color"></span></a></span>-->

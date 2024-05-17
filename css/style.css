@@ -1767,3 +1767,13 @@ b {
        max-height: 400;
    }
 }
+
+.site-logo {
+  min-height: 90px;
+}
+
+@media (min-width: 768px) { /* xl breakpoint */
+  .site-logo {
+    min-height: 126px;
+  } 
+}
