@@ -1,11 +1,19 @@
 const footerTemplate = document.createElement('template');
 
 footerTemplate.innerHTML = `
-<footer class="site-footer bg-image overlay" style="background-image: url('images/hero_1.jpg')">
+<footer class="site-footer bg-image overlay" style="background-image: url('images/woman_massage_stones_on_back_hero.jpg')">
    <div class="container">
       <div class="row">
-         <div class="col-12 text-center mb-5">
+         <div class="col-12 text-center mb-2">
             <a href="index.html"><img src="images/EssenceOfHealingLogoWT.png" style="max-width: 350px;" alt="essence of healing logo white"></a>
+         </div>
+         <div class="col-12 text-center text-white"> 
+            24333 Crenshaw Blvd.
+            Torrance, CA 90505
+            Suite 134
+         </div>
+         <div class="col-12 text-center text-white mb-5"> 
+            (424) 394 9531
          </div>
          <div class="col-12 text-center mb-5">
             <a href="index.html" class="">Home</a>
@@ -42,25 +50,25 @@ footerTemplate.innerHTML = `
 `;
 
 class Footer extends HTMLElement {
-  constructor() {
-    super();
-  }
+   constructor() {
+      super();
+   }
 
-  connectedCallback() {
-    const shadowRoot = this.attachShadow({ mode: 'closed' });
-
-
-    // shadow exists outside of the template so we need to attach the stylesheet for appropriate styling
-    ["css/style.css", "css/bootstrap.min.css", "fonts/icomoon/style.css"].map((href) => {
-      const cssLink = document.createElement("link");
-      cssLink.setAttribute("rel", "stylesheet");
-      cssLink.setAttribute("href", href);
-      shadowRoot.appendChild(cssLink);
-    });
+   connectedCallback() {
+      const shadowRoot = this.attachShadow({ mode: 'closed' });
 
 
-    shadowRoot.appendChild(footerTemplate.content);
-  }
+      // shadow exists outside of the template so we need to attach the stylesheet for appropriate styling
+      ["css/style.css", "css/bootstrap.min.css", "fonts/icomoon/style.css"].map((href) => {
+         const cssLink = document.createElement("link");
+         cssLink.setAttribute("rel", "stylesheet");
+         cssLink.setAttribute("href", href);
+         shadowRoot.appendChild(cssLink);
+      });
+
+
+      shadowRoot.appendChild(footerTemplate.content);
+   }
 }
 
 customElements.define('footer-component', Footer);
