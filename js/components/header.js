@@ -5,7 +5,7 @@ headerTemplate.innerHTML = `
   <div class="container">
     <div class="row align-items-center justify-content-center position-relative">
       <div class="d-none d-lg-flex col-12 col-lg-3 align-items-center justify-content-center justify-content-sm-start order-2 order-lg-1">
-        <a class="d-flex align-items-center" style="text-decoration: none" href="https://www.google.com/maps/place/24333+Crenshaw+Blvd+%23134,+Torrance,+CA+90505/@33.8055532,-118.3329035,17.3z/data=!4m5!3m4!1s0x80dd4af422c633ed:0x1e21b93de0f69572!8m2!3d33.804644!4d-118.3301667?entry=ttu" target="_blank">
+        <a class="d-flex align-items-center" style="text-decoration: none" href="https://maps.app.goo.gl/RfGU5NUmKSmDzKqu5" target="_blank">
           <span class="icon-map-marker accent-color mr-3" style="font-size: 2rem"> </span>
           <div style="line-height: 1.2; color: #000 !important; text-decoration: none;">
             24333 Crenshaw Blvd.<br />

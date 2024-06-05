@@ -26,14 +26,13 @@ footerTemplate.innerHTML = `
             <span class="mx-3"></span>
             <a href="special-offers.html" class="">Special Offers</a>
          </div>
-         <!--<div class="col-12">
+         <div class="col-12">
             <div class="social_29128 white text-center">
-               <a href="#"><span class="icon-twitter"></span></a>
-               <a href="#"><span class="icon-instagram"></span></a>
-               <a href="#"><span class="icon-facebook"></span></a>
-               <a href="#"><span class="icon-linkedin"></span></a>
+               <a href="https://www.instagram.com/sally_qian/?hl=en" target="_blank"><span class="icon-instagram"></span></a>
+               <a href="https://www.yelp.com/biz/essence-of-healing-spa-torrance" target="_blank"><span class="icon-yelp"></span></a>
+               <a href="https://maps.app.goo.gl/RfGU5NUmKSmDzKqu5" target="_blank"><span class="icon-google"></span></a>
             </div>
-         </div>-->
+         </div>
       </div>
       <div class="row pt-5 mt-5 text-center">
          <div class="col-md-12">
