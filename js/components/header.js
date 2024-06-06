@@ -9,8 +9,8 @@ headerTemplate.innerHTML = `
           <span class="icon-map-marker accent-color mr-3" style="font-size: 2rem"> </span>
           <div style="line-height: 1.2; color: #000 !important; text-decoration: none;">
             24333 Crenshaw Blvd.<br />
+            Suite 134<br />
             Torrance, CA 90505<br />
-            Suite 134
           </div>
         </a>
       </div>

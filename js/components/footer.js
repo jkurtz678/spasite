@@ -9,8 +9,8 @@ footerTemplate.innerHTML = `
          </div>
          <div class="col-12 text-center text-white"> 
             24333 Crenshaw Blvd.
-            Torrance, CA 90505
             Suite 134
+            Torrance, CA 90505 
          </div>
          <div class="col-12 text-center text-white mb-5"> 
             (424) 394 9531
