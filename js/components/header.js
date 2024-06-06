@@ -16,7 +16,8 @@ headerTemplate.innerHTML = `
       </div>
       <div class="col-12 col-lg-6 d-flex justify-content-center order-1 order-lg-2 align-items-center" >
         <div class="site-logo serif text-center pt-1 pt-lg-4 pb-mb-3" style="max-width: 440px;">
-          <a href="index.html"><img src="images/eoh-title.webp" alt="essence of healing golden title" style="width: 100%; min-height: 49px;"></a>
+          <a href="index.html"><img src="images/eoh-title.webp" alt="essence of healing spa" style="width: 100%; min-height: 49px;"></a>
+          <!--<h1 class="accent-color title-style" >Essence of Healing Spa</h1>-->
           <h3 class="serif" style="font-size: 0.8em">Face And Bodycare</h3>
         </div>
       </div>

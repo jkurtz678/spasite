@@ -1756,6 +1756,10 @@ b {
   color: #CA8300 !important;
 }
 
+.title-style {
+  font-weight: bolder;
+}
+
 .welcome-card{
   background-color: #fdf3e9 !important;
   padding: 2em 2.5em;
