@@ -1642,11 +1642,13 @@ h1, h2, h3, h4, h5,
   height: 50px;
   border-radius: 50%;
   background: #fdf3e9;
-  position: relative; }
+  position: relative; 
+  margin: 0px 5px; }
   .social_29128 a span {
     position: absolute;
     top: 50%;
     left: 50%;
+    font-size: 1.5em;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
@@ -1757,7 +1759,29 @@ b {
 }
 
 .title-style {
-  font-weight: bolder;
+  font-size: 1.2em;
+  text-wrap: nowrap;
+  letter-spacing: -.1rem;
+  display: flex;
+  align-items: center;
+}
+.title-of {
+  font-size: 0.5em;
+  vertical-align: middle;
+  font-style: italic;
+  color: #848688;
+  letter-spacing: -.05rem;
+  margin: 6px 8px 0 8px;
+
+}
+
+@media (min-width: 500px) { /* xl breakpoint */
+  .title-style {
+    font-size: 1.6em
+  }
+  .title-of {
+       font-size: 0.5em;
+   }
 }
 
 .welcome-card{
