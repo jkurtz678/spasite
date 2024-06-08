@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.essenceofhealingspa.com/</loc>
-    <lastmod>2024-05-18</lastmod>
+    <lastmod>2024-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
@@ -16,47 +16,8 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.essenceofhealingspa.com/membership.html</loc>
-    <lastmod>2024-05-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.essenceofhealingspa.com/images/skincare_and_massage_products.jpg</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.essenceofhealingspa.com/skincare.html</loc>
-    <lastmod>2024-05-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.essenceofhealingspa.com/images/woman_skincare_relaxing_massage.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.essenceofhealingspa.com/images/skincare_and_massage_products.jpg</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.essenceofhealingspa.com/images/curestem.jpg</image:loc>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://www.essenceofhealingspa.com/index.html</loc>
-    <lastmod>2024-05-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://www.essenceofhealingspa.com/images/woman_relaxing_healing_facial_massage.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.essenceofhealingspa.com/images/back_massage_with_oil.webp</image:loc>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.essenceofhealingspa.com/images/woman_massage_stones_on_back_hero.webp</image:loc>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.essenceofhealingspa.com/special-offers.html</loc>
-    <lastmod>2024-05-18</lastmod>
+    <lastmod>2024-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -65,17 +26,29 @@
   </url>
   <url>
     <loc>https://www.essenceofhealingspa.com/massage.html</loc>
-    <lastmod>2024-05-18</lastmod>
+    <lastmod>2024-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.essenceofhealingspa.com/images/back_massage.jpg</image:loc>
       </image:image>
+  </url>
+  <url>
+    <loc>https://www.essenceofhealingspa.com/skincare.html</loc>
+    <lastmod>2024-06-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
       <image:image>
-        <image:loc>https://www.essenceofhealingspa.com/images/back_massage_2.jpg</image:loc>
+        <image:loc>https://www.essenceofhealingspa.com/images/woman_skincare_relaxing_massage.jpg</image:loc>
       </image:image>
+  </url>
+  <url>
+    <loc>https://www.essenceofhealingspa.com/membership.html</loc>
+    <lastmod>2024-06-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
       <image:image>
-        <image:loc>https://www.essenceofhealingspa.com/images/face_massage.jpg</image:loc>
+        <image:loc>https://www.essenceofhealingspa.com/images/skincare_and_massage_products.jpg</image:loc>
       </image:image>
   </url>
 </urlset>
