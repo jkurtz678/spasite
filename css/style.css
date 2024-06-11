@@ -1643,12 +1643,12 @@ h1, h2, h3, h4, h5,
   border-radius: 50%;
   background: #fdf3e9;
   position: relative; 
-  margin: 0px 5px; }
+  margin: 0px 3px; }
   .social_29128 a span {
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
