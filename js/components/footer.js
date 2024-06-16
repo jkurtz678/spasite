@@ -5,7 +5,7 @@ footerTemplate.innerHTML = `
    <div class="container">
       <div class="row">
          <div class="col-12 text-center mb-2">
-            <a href="index.html"><img src="images/EssenceOfHealingLogoWT.png" style="max-width: 350px;" alt="essence of healing logo white"></a>
+            <a href="index.html"><img src="images/EssenceOfHealingLogoWT.png" class="footer-logo" alt="essence of healing logo white"></a>
          </div>
          <div class="col-12 text-center text-white"> 
             24333 Crenshaw Blvd.
