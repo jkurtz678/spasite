@@ -22,7 +22,7 @@ footerTemplate.innerHTML = `
             <span class="mx-3"></span>
             <a href="massage.html" class="">Massage</a>
             <span class="mx-3"></span>
-            <a href="membership.html" class="">Membership</a>
+            <a href="combos.html" class="">Combos</a>
             <span class="mx-3"></span>
             <a href="special-offers.html" class="">Special Offers</a>
          </div>
