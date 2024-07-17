@@ -30,7 +30,7 @@ headerTemplate.innerHTML = `
     </div>
     <div class="d-block" style="min-height: 44px;>
       <div class="d-flex justify-content-center mb-4 mb-lg-0" style="width: 100%;">
-        <img src="images/OrnamentLineLonger2.webp" style="max-width: 100%" alt="golden divider line with ornament">
+        <img src="images/OrnamentLineLongerGold.webp" style="max-width: 100%" alt="golden divider line with ornament">
       </div>
     </div>
     <div class="row align-items-center">
