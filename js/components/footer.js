@@ -20,11 +20,9 @@ footerTemplate.innerHTML = `
             <span class="mx-3"></span>
             <a href="skincare.html" class="">Skincare</a>
             <span class="mx-3"></span>
-            <a href="massage.html" class="">Massage</a>
-            <span class="mx-3"></span>
             <a href="combos.html" class="">Combos</a>
             <span class="mx-3"></span>
-            <a href="special-offers.html" class="">Special Offers</a>
+            <a href="eoh-skincare.html" class="">EOH Skincare</a>
          </div>
          <div class="col-12">
             <div class="social_29128 white text-center">

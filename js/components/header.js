@@ -36,12 +36,11 @@ headerTemplate.innerHTML = `
     <div class="row align-items-center">
       <!--<span class="d-block d-md-none" style="position: fixed; top: 38px; right: 25px;"><a href="#" class="site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 accent-color"></span></a></span>-->
       <nav class="site-navigation text-center mx-auto d-none d-lg-block" role="navigation">
-        <ul class="site-menu main-menu js-clone-nav mx-auto ">
+        <ul class="site-menu main-menu js-clone-nav mx-auto" style="display:flex; align-items: center;">
           <li id="home-nav" ><a href="index.html" class="nav-link">HOME</a></li>
           <li id="skincare-nav"><a href="skincare.html" class="nav-link">SKINCARE</a></li>
-          <li id="massage-nav"><a href="massage.html" class="nav-link">MASSAGE</a></li>
           <li id="combos-nav"><a href="combos.html" class="nav-link">COMBOS</a></li>
-          <li id="special-offers-nav"><a href="special-offers.html" class="nav-link">SPECIAL OFFERS</a></li>
+          <li id="eoh-skincare-nav"><a href="eoh-skincare.html" class="nav-link" ><div style="display: flex; align-items: center"><img src="images/ehs-logo.png" style="max-width: 35px; margin-right: 6px;"/><span>SKINCARE</span></div></a></li>
         </ul>
       </nav>
     </div>

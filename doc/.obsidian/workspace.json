@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Competitors.md",
+                "file": "keywords.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Competitors.md",
+                "file": "keywords.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Competitors.md",
+                "file": "keywords.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Competitors.md"
+                "file": "keywords.md"
               }
             }
           }
@@ -245,8 +245,8 @@
   },
   "active": "2295750776b1dad8",
   "lastOpenFiles": [
-    "keywords.md",
     "Competitors.md",
+    "keywords.md",
     "may-10-meeting.md",
     "SEO optimizing.md",
     "seo-guidelines.md",
