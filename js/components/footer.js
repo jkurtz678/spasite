@@ -22,7 +22,7 @@ footerTemplate.innerHTML = `
             <span class="mx-3"></span>
             <a href="combos.html" class="">Combos</a>
             <span class="mx-3"></span>
-            <a href="eoh-skincare.html" class="">EOH Skincare</a>
+            <a href="eoh-skincare.html" class="">EHS Skincare</a>
          </div>
          <div class="col-12">
             <div class="social_29128 white text-center">
